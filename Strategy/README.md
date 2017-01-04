@@ -4,12 +4,10 @@ use:
 
 
 ```javascript
-const calculator = new Calculator(new Addition());
-calculator.execute(5, 6); //11
+const player = new Player(new Html5Player());
+player.play(); // HTML5 Player play
+player.stop(); // HTML5 Player stop
 
-calculator.setStrategy(new Multiplication());
-calculator.execute(5, 6); // 30
-
-calculator.setStrategy(new Subtraction());
-calculator.execute(5, 6); // -1
+player.setPlayer(new YoutubePlayer());
+player.play(); // Youtube API: play
 ```

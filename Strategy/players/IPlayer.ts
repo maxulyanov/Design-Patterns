@@ -10,6 +10,8 @@
 'use strict';
 
 
-export interface StrategyInterface {
-    execute(a: number, b: number): number;
+export interface IPlayer {
+    play(): void,
+    pause(): void
+    stop(): void,
 }
