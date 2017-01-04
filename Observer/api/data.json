@@ -1,0 +1,64 @@
+{
+  "news": [
+    {
+      "url": "http://googleblog.blogspot.com/feeds/posts/default",
+      "title": "\u003cb\u003eOfficial Google Blog\u003c/b\u003e",
+      "contentSnippet": "Jun 24, 2010 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eOfficial\u003c/b\u003e weblog, with news of new products, events and glimpses of life inside \u003cbr\u003e  \u003cb\u003eGoogle\u003c/b\u003e.",
+      "link": "http://googleblog.blogspot.com/"
+    },
+    {
+      "url": "http://googlepress.blogspot.com/feeds/posts/default",
+      "title": "\u003cb\u003eGoogle Blog\u003c/b\u003e Directory",
+      "contentSnippet": "\u003cb\u003eGoogle Blog\u003c/b\u003e Directory About our \u003cb\u003eblogs\u003c/b\u003e. Whether it\u0026#39;s a product or feature launch \u003cbr\u003e  or a cool new \u003cb\u003e...\u003c/b\u003e \u003cb\u003eBlogs\u003c/b\u003e by Category. \u003cb\u003eGoogle\u003c/b\u003e-wide. Products. Ads. Developer \u003cb\u003e...\u003c/b\u003e",
+      "link": "http://www.google.com/press/blogs/directory.html"
+    },
+    {
+      "url": "http://blog.google.org/feeds/posts/default",
+      "title": "\u003cb\u003eOfficial google\u003c/b\u003e.org \u003cb\u003eBlog\u003c/b\u003e",
+      "contentSnippet": "We will keep posting updates to the \u003cb\u003eGoogle\u003c/b\u003e China \u003cb\u003eblog\u003c/b\u003e as more information and \u003cbr\u003e  tools become available. Please visit this page for updated resources. \u003cb\u003e...\u003c/b\u003e",
+      "link": "http://blog.google.org/"
+    },
+    {
+      "url": "http://blog.google.org/feeds/posts/default",
+      "title": "\u003cb\u003eOfficial google\u003c/b\u003e.org \u003cb\u003eBlog\u003c/b\u003e: Seeing the forest through the cloud",
+      "contentSnippet": "Dec 10, 2009 \u003cb\u003e...\u003c/b\u003e For example, in \u003cb\u003eGoogle\u003c/b\u003e Earth today, you can fly to Rondonia, Brazil and easily \u003cbr\u003e  observe the advancement of deforestation over time, \u003cb\u003e...\u003c/b\u003e",
+      "link": "http://blog.google.org/2009/12/seeing-forest-through-cloud.html"
+    },
+    {
+      "url": "http://googlewebmastercentral.blogspot.com/feeds/posts/default",
+      "title": "\u003cb\u003eOfficial Google\u003c/b\u003e Webmaster Central \u003cb\u003eBlog\u003c/b\u003e",
+      "contentSnippet": "Jun 21, 2010 \u003cb\u003e...\u003c/b\u003e The \u003cb\u003eofficial\u003c/b\u003e weblog on \u003cb\u003eGoogle\u003c/b\u003e crawling and indexing, and on webmaster tools, \u003cbr\u003e  including the Sitemaps facility.",
+      "link": "http://googlewebmastercentral.blogspot.com/"
+    },
+    {
+      "url": "http://googledocs.blogspot.com/feeds/posts/default",
+      "title": "\u003cb\u003eOfficial Google\u003c/b\u003e Docs \u003cb\u003eBlog\u003c/b\u003e",
+      "contentSnippet": "Jun 17, 2010 \u003cb\u003e...\u003c/b\u003e Labels: \u003cb\u003eGoogle\u003c/b\u003e Apps \u003cb\u003eBlog\u003c/b\u003e, sharing. The ability to share my \u003cb\u003eGoogle\u003c/b\u003e Docs is \u003cbr\u003e  crucial to my productivity. My teammates and I often add comments \u003cb\u003e...\u003c/b\u003e",
+      "link": "http://googledocs.blogspot.com/"
+    },
+    {
+      "url": "http://blogoscoped.com/rss.xml",
+      "title": "\u003cb\u003eGoogle\u0026#39;s Blogs\u003c/b\u003e \u0026#39;n More",
+      "contentSnippet": "Below posts are mostly from the corporate blogs by Google, Yahoo and Microsoft. \u003cbr\u003e  You can also \u0026gt;\u0026gt; Search \u003cb\u003eofficial Google blogs\u003c/b\u003e. \u003cb\u003e...\u003c/b\u003e",
+      "link": "http://blogoscoped.com/google/"
+    },
+    {
+      "url": "http://googlereader.blogspot.com/feeds/posts/default",
+      "title": "\u003cb\u003eOfficial Google\u003c/b\u003e Reader \u003cb\u003eBlog\u003c/b\u003e",
+      "contentSnippet": "Last year we announced that we wanted to hear your wish list for features in \u003cbr\u003e  \u003cb\u003eGoogle\u003c/b\u003e Reader, and one of most highly requested features was the ability to \u003cb\u003e...\u003c/b\u003e",
+      "link": "http://googlereader.blogspot.com/"
+    },
+    {
+      "url": "http://analytics.blogspot.com/feeds/posts/default",
+      "title": "\u003cb\u003eGoogle\u003c/b\u003e Analytics \u003cb\u003eBlog\u003c/b\u003e",
+      "contentSnippet": "\u003cb\u003eOfficial\u003c/b\u003e weblog offering news, tips and resources related to \u003cb\u003eGoogle\u0026#39;s\u003c/b\u003e web \u003cbr\u003e  traffic analytics service.",
+      "link": "http://analytics.blogspot.com/"
+    },
+    {
+      "url": "http://feeds.feedburner.com/search-engines-news",
+      "title": "\u003cb\u003eOfficial Google\u0026#39;s Blogs\u003c/b\u003e List",
+      "contentSnippet": "Oct 24, 2005 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eOfficial Google\u0026#39;s Blogs\u003c/b\u003e List - Search Engines News.",
+      "link": "http://www.prweaver.com/blog/2005/10/24/180-official-google-blogs-list"
+    }
+  ]
+}
