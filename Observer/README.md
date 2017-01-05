@@ -4,24 +4,20 @@ use:
 
 
 ```javascript
-    const serviceNews = new ServiceNews();
-    serviceNews.parseNews();
-    
-    const news = new News();
-    const lastNews = new LastNews();
-    const popularNews = new PopularNews();
-    
-    news.addObserver(lastNews);
-    news.update(serviceNews.getNews());
-    news.addObserver(popularNews);
-    
-    
-    setTimeout(() => {
-        news.update(serviceNews.getNews());
-        news.removeObserver(popularNews);
-    }, 2000);
-    
-    setTimeout(() => {
-        news.update(serviceNews.getNews());
-    }, 5000);
+const serviceNews = new ServiceNews();
+const lastNews = new LastNews();
+const popularNews = new PopularNews();
+
+serviceNews.addObserver(lastNews);
+serviceNews.publish();
+serviceNews.addObserver(popularNews);
+
+setTimeout(() => {
+    serviceNews.publish();
+    serviceNews.removeObserver(popularNews);
+}, 2000);
+
+setTimeout(() => {
+    serviceNews.publish();
+}, 5000);
 ```

@@ -9,26 +9,28 @@
 import { IObservable } from './observable/IObservable';
 import { IObserver } from "./observable/IObserver";
 
-class News implements IObservable {
+class ServiceNews implements IObservable {
 
 
     private news: any[];
     private observers: IObserver[];
+    private currentNews: number;
 
 
     constructor() {
         this.news = [];
         this.observers = [];
+        this.currentNews = 0;
+
+        this.getRemoteData();
     }
 
 
     /**
      *
-     * @param data
      */
-    public update(data: any) {
-        this.news.push(data);
-        this.notifyObservers(data);
+    public publish(): void {
+        this.notifyObservers(this.news[this.currentNews++]);
     }
 
 
@@ -66,5 +68,17 @@ class News implements IObservable {
         }
     }
 
+
+    /**
+     *
+     */
+    private getRemoteData(): void {
+        let xhr = new XMLHttpRequest();
+        xhr.open('GET', 'data.json', false);
+        xhr.onload = () => {
+            this.news = JSON.parse(xhr.responseText).news;
+        };
+        xhr.send();
+    }
 
 }
