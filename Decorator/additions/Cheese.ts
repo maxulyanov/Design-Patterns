@@ -13,8 +13,7 @@ import { Base } from "../Base";
 
 export class Cheese extends AdditionBase {
 
-    private price: number;
-    private base: Base;
+    protected price: number;
 
 
     /**
@@ -22,19 +21,11 @@ export class Cheese extends AdditionBase {
      * @param base
      */
     constructor(base: Base) {
-        super();
-        this.base = base;
+        super(base);
         this.price = 50;
         this.description = base.getDescription() + ' with cheese';
     }
 
 
-    /**
-     *
-     * @returns {number}
-     */
-    getPrice(): number {
-        return this.base.getPrice() + this.price;
-    }
 
 }
