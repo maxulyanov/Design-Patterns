@@ -23,12 +23,12 @@ export class On implements ICommand{
     }
 
 
-    execute(): void {
+    public execute(): void {
         this.tv.on();
     }
 
 
-    undo(): void {
+    public undo(): void {
         this.tv.off();
     }
 

@@ -23,12 +23,12 @@ export class VolumeDown implements ICommand{
     }
 
 
-    execute(): void {
+    public execute(): void {
         this.tv.volumeDown();
     }
 
 
-    undo(): void {
+    public undo(): void {
         this.tv.volumeUp();
     }
 

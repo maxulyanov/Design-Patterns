@@ -23,19 +23,19 @@ export class TV {
     }
 
 
-    public on() {
+    public on(): void {
         this.state = State.ON;
         console.log('Tv On');
     }
 
 
-    public off() {
+    public off(): void {
         this.state = State.OFF;
         console.log('Tv Off');
     }
 
 
-    public volumeUp() {
+    public volumeUp(): void {
         this.volume += this.volumeStep;
         if(this.volume > 100) {
             this.volume = 100;
@@ -44,7 +44,7 @@ export class TV {
     }
 
 
-    public volumeDown() {
+    public volumeDown(): void {
         this.volume -= this.volumeStep;
         if(this.volume < 0) {
             this.volume = 0;

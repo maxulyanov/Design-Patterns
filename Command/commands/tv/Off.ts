@@ -23,12 +23,12 @@ export class Off implements ICommand{
     }
 
 
-    execute(): void {
+    public execute(): void {
         this.tv.off();
     }
 
 
-    undo(): void {
+    public undo(): void {
         this.tv.on();
     }
 
