@@ -4,9 +4,9 @@ use:
 
 
 ```javascript
-const serviceNews = new ServiceNews();
-const lastNews = new LastNews();
-const popularNews = new PopularNews();
+let serviceNews = new ServiceNews();
+let lastNews = new LastNews();
+let popularNews = new PopularNews();
 
 serviceNews.addObserver(lastNews);
 serviceNews.publish();
