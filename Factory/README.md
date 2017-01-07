@@ -4,12 +4,8 @@ use:
 
 
 ```javascript
-import { EngineryFactorySovetUnion } from './enginery/EngineryFactorySovetUnion';
-import { EngineryFactoryGermany } from './enginery/EngineryFactoryGermany';
-
-
-let factorySovetUnion: EngineryFactorySovetUnion = new EngineryFactorySovetUnion();
-let factoryGermany: EngineryFactoryGermany = new EngineryFactoryGermany();
+let factorySovetUnion = new EngineryFactorySovetUnion();
+let factoryGermany = new EngineryFactoryGermany();
 
 let tankUSSR = factorySovetUnion.createTank();
 console.log(tankUSSR.getDescription()); // T34 speed: 75 power: 100
