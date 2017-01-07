@@ -1,4 +1,4 @@
-# Observer
+# Factory
 
 use:
 

@@ -1,4 +1,4 @@
-# Decorator
+# Command
 use:
 
 
