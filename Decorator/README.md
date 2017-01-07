@@ -3,11 +3,6 @@ use:
 
 
 ```javascript
-import { Diablo } from './pizza/Diablo';
-import { Pepperoni } from './pizza/Pepperoni';
-import { Sauce } from './additions/Sauce';
-import { Cheese } from './additions/Cheese';
-
 let diablo = new Diablo();
 console.log(diablo.getDescription() + ' price: ' + diablo.getPrice()); // Pizza diablo price: 450
 
