@@ -20,6 +20,13 @@ export class Computer {
     private hardDrive: HardDrive;
 
 
+    /**
+     *
+     * @param power
+     * @param cpu
+     * @param memory
+     * @param hardDrive
+     */
     constructor(power: Power, cpu: CPU, memory: Memory, hardDrive: HardDrive) {
         this.power = power;
         this.cpu = cpu;
