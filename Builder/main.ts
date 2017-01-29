@@ -13,7 +13,6 @@ import { News } from './constructor/builders/News';
 import { Profile } from './constructor/builders/Profile';
 
 
-
 const constructor = new Constructor();
 
 constructor.setBuilder(new News());

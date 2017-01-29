@@ -9,9 +9,7 @@
 import { PageBuilder } from './PageBuilder';
 
 
-
 export class Profile extends PageBuilder {
-
 
     public buildHeader(): void {
         this.page.setHeader('Header for profile');

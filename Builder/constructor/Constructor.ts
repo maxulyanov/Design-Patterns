@@ -13,11 +13,10 @@ import { Page } from './Page';
 
 export class Constructor {
 
-
     private builder: PageBuilder;
 
-    constructor() {}
 
+    constructor() {}
 
     public setBuilder(builder: PageBuilder) {
         this.builder = builder;

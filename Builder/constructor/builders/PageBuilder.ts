@@ -9,7 +9,6 @@
 import { Page } from '../Page';
 
 
-
 export abstract class PageBuilder {
 
     protected page: Page;
