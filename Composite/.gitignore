@@ -6,3 +6,4 @@ package.json
 build
 **/*.js
 **/*.js.map
+index.html
