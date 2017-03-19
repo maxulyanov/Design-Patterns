@@ -3,7 +3,7 @@ use:
 
 
 ```javascript
-let list = new List();
+let list = new List(); 
 list.push('Item list 1');
 list.push('Item list 2');
 list.push('Item list 3');
